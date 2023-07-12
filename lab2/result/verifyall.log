@@ -1,0 +1,75 @@
+[lashhw@localhost 109550059]$ bash verifyall.sh 
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ perl eval2008.pl adaptec1.gr adaptec1.sol
+File Names(In, Out)                         Tot OF       Max OF             WL
+adaptec1.gr, adaptec1.sol                        0            0        5653292
++ echo 'return value is 0'
+return value is 0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ perl eval2008.pl adaptec2.gr adaptec2.sol
+File Names(In, Out)                         Tot OF       Max OF             WL
+adaptec2.gr, adaptec2.sol                        0            0        5354524
++ echo 'return value is 0'
+return value is 0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ perl eval2008.pl adaptec3.gr adaptec3.sol
+File Names(In, Out)                         Tot OF       Max OF             WL
+adaptec3.gr, adaptec3.sol                        0            0       13571147
++ echo 'return value is 0'
+return value is 0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ perl eval2008.pl adaptec4.gr adaptec4.sol
+File Names(In, Out)                         Tot OF       Max OF             WL
+adaptec4.gr, adaptec4.sol                        0            0       12330767
++ echo 'return value is 0'
+return value is 0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ perl eval2008.pl adaptec5.gr adaptec5.sol
+File Names(In, Out)                         Tot OF       Max OF             WL
+adaptec5.gr, adaptec5.sol                        0            0       16124658
++ echo 'return value is 0'
+return value is 0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ perl eval2008.pl bigblue1.gr bigblue1.sol
+File Names(In, Out)                         Tot OF       Max OF             WL
+bigblue1.gr, bigblue1.sol                        0            0        6009023
++ echo 'return value is 0'
+return value is 0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ perl eval2008.pl bigblue2.gr bigblue2.sol
+File Names(In, Out)                         Tot OF       Max OF             WL
+bigblue2.gr, bigblue2.sol                        0            0        9284149
++ echo 'return value is 0'
+return value is 0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ perl eval2008.pl bigblue3.gr bigblue3.sol
+File Names(In, Out)                         Tot OF       Max OF             WL
+bigblue3.gr, bigblue3.sol                        0            0       13218879
++ echo 'return value is 0'
+return value is 0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ perl eval2008.pl newblue1.gr newblue1.sol
+File Names(In, Out)                         Tot OF       Max OF             WL
+newblue1.gr, newblue1.sol                      288            2        4719496
++ echo 'return value is 0'
+return value is 0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ perl eval2008.pl newblue2.gr newblue2.sol
+File Names(In, Out)                         Tot OF       Max OF             WL
+newblue2.gr, newblue2.sol                        0            0        7653221
++ echo 'return value is 0'
+return value is 0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ perl eval2008.pl newblue5.gr newblue5.sol
+File Names(In, Out)                         Tot OF       Max OF             WL
+newblue5.gr, newblue5.sol                        0            0       23758279
++ echo 'return value is 0'
+return value is 0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ perl eval2008.pl newblue6.gr newblue6.sol
+File Names(In, Out)                         Tot OF       Max OF             WL
+newblue6.gr, newblue6.sol                        0            0       18295504
++ echo 'return value is 0'
+return value is 0
+[lashhw@localhost 109550059]$ 
+

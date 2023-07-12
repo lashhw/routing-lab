@@ -1,0 +1,9 @@
+max_layer 1
+boundary 0 0 10 10
+min_pitch_size 2
+via_cost 1
+nets 4
+net0 0 0 0 6 6 0
+net1 10 0 0 4 6 0
+net2 0 10 0 6 4 0
+net3 10 10 0 4 4 0

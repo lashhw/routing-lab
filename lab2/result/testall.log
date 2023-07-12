@@ -1,0 +1,1002 @@
+[lashhw@localhost 109550059]$ make
+g++ -O3 -std=c++17 main.cpp LayerAssignment.cpp -o router
+[lashhw@localhost 109550059]$ bash testall.sh 
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ timeout --signal=KILL 30m ./router adaptec1.gr adaptec1.sol 1800
++ tee adaptec1.log
+timer set to 1740 seconds
+parse...
+remove...
+default_hcapacity = 70
+default_vcapacity = 70
+decompose two-pin nets...
+pattern routing...
+estimated OF = 404178
+rip-up and reroute with pattern routing...
+estimated OF = 296806
+estimated OF = 287626
+rip-up and reroute with monotonic routing...
+estimated OF = 140756
+estimated OF = 133820
+rip-up and reroute with HUM ...
+iter 0: estimated OF = 55186
+bbox extended
+iter 1: estimated OF = 30646
+bbox extended
+iter 2: estimated OF = 17616
+bbox extended
+iter 3: estimated OF = 8794
+bbox extended
+iter 4: estimated OF = 3852
+bbox extended
+iter 5: estimated OF = 1610
+bbox extended
+iter 6: estimated OF = 712
+bbox extended
+iter 7: estimated OF = 414
+bbox extended
+iter 8: estimated OF = 252
+bbox extended
+iter 9: estimated OF = 176
+bbox extended
+iter 10: estimated OF = 108
+bbox extended
+iter 11: estimated OF = 54
+bbox extended
+iter 12: estimated OF = 38
+bbox extended
+iter 13: estimated OF = 30
+bbox extended
+iter 14: estimated OF = 36
+bbox extended
+iter 15: estimated OF = 20
+bbox extended
+iter 16: estimated OF = 12
+bbox extended
+iter 17: estimated OF = 8
+bbox extended
+iter 18: estimated OF = 10
+bbox extended
+filling path...
+layer assignment...
+convertGRtoLA  input total overflow=0  Wlen2D=3659296  maxLen=2221  assignNet=176715
+LA assign net by net
+IntialLA  totalOF=0  maxOF=0  weightOF=0  totalVia=1995870
+PostLA  totalOF=0  maxOF=0  weightOF=0  totalVia=1993996
+totalOF=0  maxOF=0  weightOF=0   Wlen2D=3659296  Via=1993996  totalWL(Wlen2D+Via*1)=5653292 
+total execution time = 169s
++ echo 'return value is 0|0'
+return value is 0|0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ timeout --signal=KILL 30m ./router adaptec2.gr adaptec2.sol 1800
++ tee adaptec2.log
+timer set to 1740 seconds
+parse...
+remove...
+default_hcapacity = 80
+default_vcapacity = 80
+decompose two-pin nets...
+pattern routing...
+estimated OF = 218362
+rip-up and reroute with pattern routing...
+estimated OF = 174368
+estimated OF = 170242
+rip-up and reroute with monotonic routing...
+estimated OF = 135916
+estimated OF = 134640
+rip-up and reroute with HUM ...
+iter 0: estimated OF = 15708
+bbox extended
+iter 1: estimated OF = 6776
+bbox extended
+iter 2: estimated OF = 3904
+bbox extended
+iter 3: estimated OF = 2294
+bbox extended
+iter 4: estimated OF = 1538
+bbox extended
+iter 5: estimated OF = 992
+bbox extended
+iter 6: estimated OF = 614
+bbox extended
+iter 7: estimated OF = 438
+bbox extended
+iter 8: estimated OF = 294
+bbox extended
+iter 9: estimated OF = 188
+bbox extended
+iter 10: estimated OF = 128
+bbox extended
+iter 11: estimated OF = 88
+bbox extended
+iter 12: estimated OF = 64
+bbox extended
+iter 13: estimated OF = 48
+bbox extended
+iter 14: estimated OF = 10
+bbox extended
+iter 15: estimated OF = 8
+bbox extended
+iter 16: estimated OF = 8
+bbox extended
+iter 17: estimated OF = 4
+bbox extended
+filling path...
+layer assignment...
+convertGRtoLA  input total overflow=0  Wlen2D=3343811  maxLen=3913  assignNet=207973
+LA assign net by net
+IntialLA  totalOF=0  maxOF=0  weightOF=0  totalVia=2011538
+PostLA  totalOF=0  maxOF=0  weightOF=0  totalVia=2010713
+totalOF=0  maxOF=0  weightOF=0   Wlen2D=3343811  Via=2010713  totalWL(Wlen2D+Via*1)=5354524 
+total execution time = 128s
++ echo 'return value is 0|0'
+return value is 0|0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ timeout --signal=KILL 30m ./router adaptec3.gr adaptec3.sol 1800
++ tee adaptec3.log
+timer set to 1740 seconds
+parse...
+remove...
+default_hcapacity = 62
+default_vcapacity = 62
+decompose two-pin nets...
+pattern routing...
+estimated OF = 883260
+rip-up and reroute with pattern routing...
+estimated OF = 642576
+estimated OF = 621126
+rip-up and reroute with monotonic routing...
+estimated OF = 282876
+estimated OF = 270504
+rip-up and reroute with HUM ...
+iter 0: estimated OF = 35690
+bbox extended
+iter 1: estimated OF = 11882
+bbox extended
+iter 2: estimated OF = 3896
+bbox extended
+iter 3: estimated OF = 1330
+bbox extended
+iter 4: estimated OF = 706
+bbox extended
+iter 5: estimated OF = 334
+bbox extended
+iter 6: estimated OF = 202
+bbox extended
+iter 7: estimated OF = 94
+bbox extended
+iter 8: estimated OF = 86
+bbox extended
+iter 9: estimated OF = 60
+bbox extended
+iter 10: estimated OF = 50
+bbox extended
+iter 11: estimated OF = 32
+bbox extended
+iter 12: estimated OF = 18
+bbox extended
+iter 13: estimated OF = 24
+bbox extended
+iter 14: estimated OF = 18
+bbox extended
+iter 15: estimated OF = 20
+bbox extended
+iter 16: estimated OF = 26
+bbox extended
+iter 17: estimated OF = 14
+bbox extended
+iter 18: estimated OF = 6
+bbox extended
+iter 19: estimated OF = 6
+bbox extended
+iter 20: estimated OF = 2
+bbox extended
+filling path...
+layer assignment...
+convertGRtoLA  input total overflow=0  Wlen2D=9669735  maxLen=2896  assignNet=368494
+LA assign net by net
+IntialLA  totalOF=0  maxOF=0  weightOF=0  totalVia=3907112
+PostLA  totalOF=0  maxOF=0  weightOF=0  totalVia=3901412
+totalOF=0  maxOF=0  weightOF=0   Wlen2D=9669735  Via=3901412  totalWL(Wlen2D+Via*1)=13571147 
+total execution time = 404s
++ echo 'return value is 0|0'
+return value is 0|0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ timeout --signal=KILL 30m ./router adaptec4.gr adaptec4.sol 1800
++ tee adaptec4.log
+timer set to 1740 seconds
+parse...
+remove...
+default_hcapacity = 62
+default_vcapacity = 62
+decompose two-pin nets...
+pattern routing...
+estimated OF = 198658
+rip-up and reroute with pattern routing...
+estimated OF = 131558
+estimated OF = 123582
+rip-up and reroute with monotonic routing...
+estimated OF = 77000
+estimated OF = 75844
+rip-up and reroute with HUM ...
+iter 0: estimated OF = 3288
+bbox extended
+iter 1: estimated OF = 472
+bbox extended
+iter 2: estimated OF = 224
+bbox extended
+iter 3: estimated OF = 120
+bbox extended
+iter 4: estimated OF = 54
+bbox extended
+iter 5: estimated OF = 26
+bbox extended
+iter 6: estimated OF = 12
+bbox extended
+iter 7: estimated OF = 6
+bbox extended
+iter 8: estimated OF = 2
+bbox extended
+filling path...
+layer assignment...
+convertGRtoLA  input total overflow=0  Wlen2D=9026375  maxLen=4144  assignNet=401060
+LA assign net by net
+IntialLA  totalOF=0  maxOF=0  weightOF=0  totalVia=3308163
+PostLA  totalOF=0  maxOF=0  weightOF=0  totalVia=3304392
+totalOF=0  maxOF=0  weightOF=0   Wlen2D=9026375  Via=3304392  totalWL(Wlen2D+Via*1)=12330767 
+total execution time = 68s
++ echo 'return value is 0|0'
+return value is 0|0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ timeout --signal=KILL 30m ./router adaptec5.gr adaptec5.sol 1800
++ tee adaptec5.log
+timer set to 1740 seconds
+parse...
+remove...
+default_hcapacity = 110
+default_vcapacity = 110
+decompose two-pin nets...
+pattern routing...
+estimated OF = 964140
+rip-up and reroute with pattern routing...
+estimated OF = 778534
+estimated OF = 763420
+rip-up and reroute with monotonic routing...
+estimated OF = 507296
+estimated OF = 498512
+rip-up and reroute with HUM ...
+iter 0: estimated OF = 109476
+bbox extended
+iter 1: estimated OF = 59222
+bbox extended
+iter 2: estimated OF = 35570
+bbox extended
+iter 3: estimated OF = 19004
+bbox extended
+iter 4: estimated OF = 8468
+bbox extended
+iter 5: estimated OF = 3068
+bbox extended
+iter 6: estimated OF = 1254
+bbox extended
+iter 7: estimated OF = 572
+bbox extended
+iter 8: estimated OF = 292
+bbox extended
+iter 9: estimated OF = 186
+bbox extended
+iter 10: estimated OF = 120
+bbox extended
+iter 11: estimated OF = 56
+bbox extended
+iter 12: estimated OF = 58
+bbox extended
+iter 13: estimated OF = 58
+bbox extended
+iter 14: estimated OF = 44
+bbox extended
+iter 15: estimated OF = 38
+bbox extended
+iter 16: estimated OF = 22
+bbox extended
+iter 17: estimated OF = 6
+bbox extended
+iter 18: estimated OF = 2
+bbox extended
+iter 19: estimated OF = 2
+bbox extended
+iter 20: estimated OF = 2
+bbox extended
+iter 21: estimated OF = 4
+bbox extended
+iter 22: estimated OF = 8
+bbox extended
+iter 23: estimated OF = 12
+bbox extended
+iter 24: estimated OF = 4
+bbox extended
+iter 25: estimated OF = 2
+bbox extended
+iter 26: estimated OF = 2
+bbox extended
+filling path...
+layer assignment...
+convertGRtoLA  input total overflow=0  Wlen2D=10410062  maxLen=1562  assignNet=548073
+LA assign net by net
+IntialLA  totalOF=0  maxOF=0  weightOF=0  totalVia=5716732
+PostLA  totalOF=0  maxOF=0  weightOF=0  totalVia=5714596
+totalOF=0  maxOF=0  weightOF=0   Wlen2D=10410062  Via=5714596  totalWL(Wlen2D+Via*1)=16124658 
+total execution time = 478s
++ echo 'return value is 0|0'
+return value is 0|0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ timeout --signal=KILL 30m ./router bigblue1.gr bigblue1.sol 1800
++ tee bigblue1.log
+timer set to 1740 seconds
+parse...
+remove...
+default_hcapacity = 110
+default_vcapacity = 110
+decompose two-pin nets...
+pattern routing...
+estimated OF = 417034
+rip-up and reroute with pattern routing...
+estimated OF = 308208
+estimated OF = 299212
+rip-up and reroute with monotonic routing...
+estimated OF = 224170
+estimated OF = 219482
+rip-up and reroute with HUM ...
+iter 0: estimated OF = 107058
+bbox extended
+iter 1: estimated OF = 50258
+bbox extended
+iter 2: estimated OF = 25540
+bbox extended
+iter 3: estimated OF = 12468
+bbox extended
+iter 4: estimated OF = 5874
+bbox extended
+iter 5: estimated OF = 2916
+bbox extended
+iter 6: estimated OF = 1314
+bbox extended
+iter 7: estimated OF = 714
+bbox extended
+iter 8: estimated OF = 468
+bbox extended
+iter 9: estimated OF = 292
+bbox extended
+iter 10: estimated OF = 142
+bbox extended
+iter 11: estimated OF = 52
+bbox extended
+iter 12: estimated OF = 28
+bbox extended
+iter 13: estimated OF = 2
+bbox extended
+iter 14: estimated OF = 6
+bbox extended
+iter 15: estimated OF = 6
+bbox extended
+iter 16: estimated OF = 4
+bbox extended
+iter 17: estimated OF = 4
+bbox extended
+iter 18: estimated OF = 2
+bbox extended
+iter 19: estimated OF = 4
+bbox extended
+filling path...
+layer assignment...
+convertGRtoLA  input total overflow=0  Wlen2D=3829508  maxLen=3083  assignNet=196886
+LA assign net by net
+IntialLA  totalOF=0  maxOF=0  weightOF=0  totalVia=2180467
+PostLA  totalOF=0  maxOF=0  weightOF=0  totalVia=2179515
+totalOF=0  maxOF=0  weightOF=0   Wlen2D=3829508  Via=2179515  totalWL(Wlen2D+Via*1)=6009023 
+total execution time = 280s
++ echo 'return value is 0|0'
+return value is 0|0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ timeout --signal=KILL 30m ./router bigblue2.gr bigblue2.sol 1800
++ tee bigblue2.log
+timer set to 1740 seconds
+parse...
+remove...
+default_hcapacity = 52
+default_vcapacity = 52
+decompose two-pin nets...
+pattern routing...
+estimated OF = 362312
+rip-up and reroute with pattern routing...
+estimated OF = 273234
+estimated OF = 263758
+rip-up and reroute with monotonic routing...
+estimated OF = 160010
+estimated OF = 154726
+rip-up and reroute with HUM ...
+iter 0: estimated OF = 31686
+bbox extended
+iter 1: estimated OF = 19230
+bbox extended
+iter 2: estimated OF = 13760
+bbox extended
+iter 3: estimated OF = 9934
+bbox extended
+iter 4: estimated OF = 7138
+bbox extended
+iter 5: estimated OF = 5458
+bbox extended
+iter 6: estimated OF = 4050
+bbox extended
+iter 7: estimated OF = 3170
+bbox extended
+iter 8: estimated OF = 2640
+bbox extended
+iter 9: estimated OF = 2216
+bbox extended
+iter 10: estimated OF = 1748
+bbox extended
+iter 11: estimated OF = 1454
+bbox extended
+iter 12: estimated OF = 1188
+bbox extended
+iter 13: estimated OF = 1092
+bbox extended
+iter 14: estimated OF = 902
+bbox extended
+iter 15: estimated OF = 864
+bbox extended
+iter 16: estimated OF = 748
+bbox extended
+iter 17: estimated OF = 684
+bbox extended
+iter 18: estimated OF = 562
+bbox extended
+iter 19: estimated OF = 500
+bbox extended
+iter 20: estimated OF = 464
+bbox extended
+iter 21: estimated OF = 428
+bbox extended
+iter 22: estimated OF = 348
+bbox extended
+iter 23: estimated OF = 284
+bbox extended
+iter 24: estimated OF = 320
+bbox extended
+iter 25: estimated OF = 314
+bbox extended
+iter 26: estimated OF = 232
+bbox extended
+iter 27: estimated OF = 224
+bbox extended
+iter 28: estimated OF = 206
+bbox extended
+iter 29: estimated OF = 190
+bbox extended
+iter 30: estimated OF = 198
+bbox extended
+iter 31: estimated OF = 202
+bbox extended
+iter 32: estimated OF = 190
+bbox extended
+iter 33: estimated OF = 166
+bbox extended
+iter 34: estimated OF = 140
+bbox extended
+iter 35: estimated OF = 142
+bbox extended
+iter 36: estimated OF = 126
+bbox extended
+iter 37: estimated OF = 146
+bbox extended
+iter 38: estimated OF = 126
+bbox extended
+iter 39: estimated OF = 138
+bbox extended
+iter 40: estimated OF = 122
+bbox extended
+iter 41: estimated OF = 76
+bbox extended
+iter 42: estimated OF = 118
+bbox extended
+iter 43: estimated OF = 66
+bbox extended
+iter 44: estimated OF = 78
+bbox extended
+iter 45: estimated OF = 54
+bbox extended
+iter 46: estimated OF = 72
+bbox extended
+iter 47: estimated OF = 72
+bbox extended
+iter 48: estimated OF = 48
+bbox extended
+iter 49: estimated OF = 30
+bbox extended
+iter 50: estimated OF = 40
+bbox extended
+iter 51: estimated OF = 56
+bbox extended
+iter 52: estimated OF = 46
+bbox extended
+iter 53: estimated OF = 58
+bbox extended
+iter 54: estimated OF = 46
+bbox extended
+iter 55: estimated OF = 40
+bbox extended
+iter 56: estimated OF = 54
+bbox extended
+iter 57: estimated OF = 50
+bbox extended
+iter 58: estimated OF = 68
+bbox extended
+iter 59: estimated OF = 76
+bbox extended
+iter 60: estimated OF = 48
+bbox extended
+iter 61: estimated OF = 36
+bbox extended
+iter 62: estimated OF = 46
+bbox extended
+iter 63: estimated OF = 32
+bbox extended
+iter 64: estimated OF = 44
+bbox extended
+iter 65: estimated OF = 46
+bbox extended
+iter 66: estimated OF = 22
+bbox extended
+iter 67: estimated OF = 14
+bbox extended
+iter 68: estimated OF = 14
+bbox extended
+iter 69: estimated OF = 8
+bbox extended
+iter 70: estimated OF = 14
+bbox extended
+iter 71: estimated OF = 6
+bbox extended
+iter 72: estimated OF = 6
+bbox extended
+iter 73: estimated OF = 6
+bbox extended
+iter 74: estimated OF = 10
+bbox extended
+iter 75: estimated OF = 4
+bbox extended
+filling path...
+layer assignment...
+convertGRtoLA  input total overflow=0  Wlen2D=4861497  maxLen=3505  assignNet=428968
+LA assign net by net
+IntialLA  totalOF=0  maxOF=0  weightOF=0  totalVia=4427220
+PostLA  totalOF=0  maxOF=0  weightOF=0  totalVia=4422652
+totalOF=0  maxOF=0  weightOF=0   Wlen2D=4861497  Via=4422652  totalWL(Wlen2D+Via*1)=9284149 
+total execution time = 897s
++ echo 'return value is 0|0'
+return value is 0|0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ timeout --signal=KILL 30m ./router bigblue3.gr bigblue3.sol 1800
++ tee bigblue3.log
+timer set to 1740 seconds
+parse...
+remove...
+default_hcapacity = 148
+default_vcapacity = 148
+decompose two-pin nets...
+pattern routing...
+estimated OF = 201790
+rip-up and reroute with pattern routing...
+estimated OF = 153942
+estimated OF = 150690
+rip-up and reroute with monotonic routing...
+estimated OF = 141748
+estimated OF = 141488
+rip-up and reroute with HUM ...
+iter 0: estimated OF = 21870
+bbox extended
+iter 1: estimated OF = 9714
+bbox extended
+iter 2: estimated OF = 5196
+bbox extended
+iter 3: estimated OF = 3018
+bbox extended
+iter 4: estimated OF = 1500
+bbox extended
+iter 5: estimated OF = 926
+bbox extended
+iter 6: estimated OF = 600
+bbox extended
+iter 7: estimated OF = 352
+bbox extended
+iter 8: estimated OF = 178
+bbox extended
+iter 9: estimated OF = 132
+bbox extended
+iter 10: estimated OF = 78
+bbox extended
+iter 11: estimated OF = 40
+bbox extended
+iter 12: estimated OF = 40
+bbox extended
+iter 13: estimated OF = 12
+bbox extended
+iter 14: estimated OF = 14
+bbox extended
+iter 15: estimated OF = 6
+bbox extended
+iter 16: estimated OF = 2
+bbox extended
+filling path...
+layer assignment...
+convertGRtoLA  input total overflow=0  Wlen2D=7890079  maxLen=1129  assignNet=665629
+LA assign net by net
+IntialLA  totalOF=0  maxOF=0  weightOF=0  totalVia=5330106
+PostLA  totalOF=0  maxOF=0  weightOF=0  totalVia=5328800
+totalOF=0  maxOF=0  weightOF=0   Wlen2D=7890079  Via=5328800  totalWL(Wlen2D+Via*1)=13218879 
+total execution time = 192s
++ echo 'return value is 0|0'
+return value is 0|0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ timeout --signal=KILL 30m ./router newblue1.gr newblue1.sol 1800
++ tee newblue1.log
+timer set to 1740 seconds
+parse...
+remove...
+default_hcapacity = 62
+default_vcapacity = 62
+decompose two-pin nets...
+pattern routing...
+estimated OF = 77278
+rip-up and reroute with pattern routing...
+estimated OF = 50290
+estimated OF = 46826
+rip-up and reroute with monotonic routing...
+estimated OF = 35968
+estimated OF = 35488
+rip-up and reroute with HUM ...
+iter 0: estimated OF = 15638
+bbox extended
+iter 1: estimated OF = 9520
+bbox extended
+iter 2: estimated OF = 6652
+bbox extended
+iter 3: estimated OF = 4854
+bbox extended
+iter 4: estimated OF = 3650
+bbox extended
+iter 5: estimated OF = 2648
+bbox extended
+iter 6: estimated OF = 2294
+bbox extended
+iter 7: estimated OF = 2036
+bbox extended
+iter 8: estimated OF = 1644
+bbox extended
+iter 9: estimated OF = 1444
+bbox extended
+iter 10: estimated OF = 1238
+bbox extended
+iter 11: estimated OF = 1096
+bbox extended
+iter 12: estimated OF = 990
+bbox extended
+iter 13: estimated OF = 954
+bbox extended
+iter 14: estimated OF = 868
+bbox extended
+iter 15: estimated OF = 762
+bbox extended
+iter 16: estimated OF = 766
+bbox extended
+iter 17: estimated OF = 720
+bbox extended
+iter 18: estimated OF = 718
+bbox extended
+iter 19: estimated OF = 646
+bbox extended
+iter 20: estimated OF = 644
+bbox extended
+iter 21: estimated OF = 604
+bbox extended
+iter 22: estimated OF = 536
+bbox extended
+iter 23: estimated OF = 502
+bbox extended
+iter 24: estimated OF = 488
+bbox extended
+iter 25: estimated OF = 448
+bbox extended
+iter 26: estimated OF = 446
+bbox extended
+iter 27: estimated OF = 444
+bbox extended
+iter 28: estimated OF = 430
+bbox extended
+iter 29: estimated OF = 402
+bbox extended
+iter 30: estimated OF = 358
+bbox extended
+iter 31: estimated OF = 348
+bbox extended
+iter 32: estimated OF = 334
+bbox extended
+iter 33: estimated OF = 322
+bbox extended
+iter 34: estimated OF = 324
+bbox extended
+iter 35: estimated OF = 372
+bbox extended
+iter 36: estimated OF = 368
+bbox extended
+iter 37: estimated OF = 340
+bbox extended
+iter 38: estimated OF = 316
+bbox extended
+iter 39: estimated OF = 382
+bbox extended
+iter 40: estimated OF = 356
+bbox extended
+iter 41: estimated OF = 378
+bbox extended
+iter 42: estimated OF = 330
+bbox extended
+iter 43: estimated OF = 372
+bbox extended
+iter 44: estimated OF = 334
+bbox extended
+iter 45: estimated OF = 306
+bbox extended
+iter 46: estimated OF = 300
+bbox extended
+iter 47: estimated OF = 276
+bbox extended
+iter 48: estimated OF = 248
+bbox extended
+iter 49: estimated OF = 286
+bbox extended
+iter 50: estimated OF = 244
+bbox extended
+iter 51: estimated OF = 246
+bbox extended
+iter 52: estimated OF = 200
+bbox extended
+iter 53: estimated OF = 236
+bbox extended
+iter 54: estimated OF = 238
+bbox extended
+iter 55: estimated OF = 232
+bbox extended
+iter 56: estimated OF = 266
+bbox extended
+iter 57: estimated OF = 326
+bbox extended
+iter 58: estimated OF = 260
+bbox extended
+iter 59: estimated OF = 276
+bbox extended
+iter 60: estimated OF = 256
+bbox extended
+iter 61: estimated OF = 216
+bbox extended
+iter 62: estimated OF = 248
+bbox extended
+iter 63: estimated OF = 222
+bbox extended
+iter 64: estimated OF = 220
+bbox extended
+iter 65: estimated OF = 228
+bbox extended
+iter 66: estimated OF = 264
+bbox extended
+iter 67: estimated OF = 224
+bbox extended
+iter 68: estimated OF = 226
+bbox extended
+iter 69: estimated OF = 210
+bbox extended
+Caught Alarm clock. Stopping gracefully...
+filling path...
+layer assignment...
+convertGRtoLA  input total overflow=288  Wlen2D=2442506  maxLen=630  assignNet=270713
+LA assign net by net
+IntialLA  totalOF=288  maxOF=2  weightOF=576  totalVia=2277892
+PostLA  totalOF=288  maxOF=2  weightOF=576  totalVia=2276990
+totalOF=288  maxOF=2  weightOF=576   Wlen2D=2442506  Via=2276990  totalWL(Wlen2D+Via*1)=4719496 
+total execution time = 1743s
++ echo 'return value is 0|0'
+return value is 0|0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ timeout --signal=KILL 30m ./router newblue2.gr newblue2.sol 1800
++ tee newblue2.log
+timer set to 1740 seconds
+parse...
+remove...
+default_hcapacity = 110
+default_vcapacity = 110
+decompose two-pin nets...
+pattern routing...
+estimated OF = 67128
+rip-up and reroute with pattern routing...
+estimated OF = 38038
+estimated OF = 34958
+rip-up and reroute with monotonic routing...
+estimated OF = 17612
+estimated OF = 16790
+rip-up and reroute with HUM ...
+iter 0: estimated OF = 122
+bbox extended
+iter 1: estimated OF = 44
+bbox extended
+iter 2: estimated OF = 18
+bbox extended
+iter 3: estimated OF = 6
+bbox extended
+filling path...
+layer assignment...
+convertGRtoLA  input total overflow=0  Wlen2D=4676679  maxLen=1883  assignNet=373790
+LA assign net by net
+IntialLA  totalOF=0  maxOF=0  weightOF=0  totalVia=2977653
+PostLA  totalOF=0  maxOF=0  weightOF=0  totalVia=2976542
+totalOF=0  maxOF=0  weightOF=0   Wlen2D=4676679  Via=2976542  totalWL(Wlen2D+Via*1)=7653221 
+total execution time = 21s
++ echo 'return value is 0|0'
+return value is 0|0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ timeout --signal=KILL 30m ./router newblue5.gr newblue5.sol 1800
++ tee newblue5.log
+timer set to 1740 seconds
+parse...
+remove...
+default_hcapacity = 88
+default_vcapacity = 88
+decompose two-pin nets...
+pattern routing...
+estimated OF = 931668
+rip-up and reroute with pattern routing...
+estimated OF = 760650
+estimated OF = 745266
+rip-up and reroute with monotonic routing...
+estimated OF = 562984
+estimated OF = 557586
+rip-up and reroute with HUM ...
+iter 0: estimated OF = 112866
+bbox extended
+iter 1: estimated OF = 42854
+bbox extended
+iter 2: estimated OF = 19048
+bbox extended
+iter 3: estimated OF = 8164
+bbox extended
+iter 4: estimated OF = 4160
+bbox extended
+iter 5: estimated OF = 2350
+bbox extended
+iter 6: estimated OF = 1366
+bbox extended
+iter 7: estimated OF = 798
+bbox extended
+iter 8: estimated OF = 544
+bbox extended
+iter 9: estimated OF = 406
+bbox extended
+iter 10: estimated OF = 272
+bbox extended
+iter 11: estimated OF = 220
+bbox extended
+iter 12: estimated OF = 194
+bbox extended
+iter 13: estimated OF = 114
+bbox extended
+iter 14: estimated OF = 48
+bbox extended
+iter 15: estimated OF = 52
+bbox extended
+iter 16: estimated OF = 22
+bbox extended
+iter 17: estimated OF = 20
+bbox extended
+iter 18: estimated OF = 6
+bbox extended
+iter 19: estimated OF = 24
+bbox extended
+iter 20: estimated OF = 18
+bbox extended
+iter 21: estimated OF = 12
+bbox extended
+iter 22: estimated OF = 2
+bbox extended
+iter 23: estimated OF = 2
+bbox extended
+iter 24: estimated OF = 28
+bbox extended
+iter 25: estimated OF = 14
+bbox extended
+iter 26: estimated OF = 20
+bbox extended
+iter 27: estimated OF = 6
+bbox extended
+iter 28: estimated OF = 4
+bbox extended
+filling path...
+layer assignment...
+convertGRtoLA  input total overflow=0  Wlen2D=14882495  maxLen=1478  assignNet=891920
+LA assign net by net
+IntialLA  totalOF=0  maxOF=0  weightOF=0  totalVia=8879281
+PostLA  totalOF=0  maxOF=0  weightOF=0  totalVia=8875784
+totalOF=0  maxOF=0  weightOF=0   Wlen2D=14882495  Via=8875784  totalWL(Wlen2D+Via*1)=23758279 
+total execution time = 694s
++ echo 'return value is 0|0'
+return value is 0|0
++ for testcase in adaptec1 adaptec2 adaptec3 adaptec4 adaptec5 bigblue1 bigblue2 bigblue3 newblue1 newblue2 newblue5 newblue6
++ tee newblue6.log
++ timeout --signal=KILL 30m ./router newblue6.gr newblue6.sol 1800
+timer set to 1740 seconds
+parse...
+remove...
+default_hcapacity = 132
+default_vcapacity = 132
+decompose two-pin nets...
+pattern routing...
+estimated OF = 827172
+rip-up and reroute with pattern routing...
+estimated OF = 654176
+estimated OF = 638820
+rip-up and reroute with monotonic routing...
+estimated OF = 422714
+estimated OF = 413398
+rip-up and reroute with HUM ...
+iter 0: estimated OF = 90146
+bbox extended
+iter 1: estimated OF = 41536
+bbox extended
+iter 2: estimated OF = 22278
+bbox extended
+iter 3: estimated OF = 10610
+bbox extended
+iter 4: estimated OF = 5822
+bbox extended
+iter 5: estimated OF = 3034
+bbox extended
+iter 6: estimated OF = 1684
+bbox extended
+iter 7: estimated OF = 950
+bbox extended
+iter 8: estimated OF = 518
+bbox extended
+iter 9: estimated OF = 300
+bbox extended
+iter 10: estimated OF = 186
+bbox extended
+iter 11: estimated OF = 148
+bbox extended
+iter 12: estimated OF = 56
+bbox extended
+iter 13: estimated OF = 38
+bbox extended
+iter 14: estimated OF = 42
+bbox extended
+iter 15: estimated OF = 22
+bbox extended
+iter 16: estimated OF = 8
+bbox extended
+iter 17: estimated OF = 8
+bbox extended
+iter 18: estimated OF = 4
+bbox extended
+iter 19: estimated OF = 4
+bbox extended
+filling path...
+layer assignment...
+convertGRtoLA  input total overflow=0  Wlen2D=10306917  maxLen=1094  assignNet=835267
+LA assign net by net
+IntialLA  totalOF=0  maxOF=0  weightOF=0  totalVia=7990140
+PostLA  totalOF=0  maxOF=0  weightOF=0  totalVia=7988587
+totalOF=0  maxOF=0  weightOF=0   Wlen2D=10306917  Via=7988587  totalWL(Wlen2D+Via*1)=18295504 
+total execution time = 619s
++ echo 'return value is 0|0'
+return value is 0|0
+[lashhw@localhost 109550059]$ 
+
