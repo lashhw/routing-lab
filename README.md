@@ -11,7 +11,7 @@ Implement a greedy channel router proposed in [this paper](https://ieeexplore.ie
 
 ## Lab2: global router
 ### Topic
-Implement a global router that can complete [ISPD 2008 Global Routing Contest](https://www.ispd.cc/contests/08/ispd08rc.html), and try to minimize the total overflow (TOF), max overflow (MOF), wirelength (WL) and runtime.
+Implement the global router that can complete [ISPD 2008 Global Routing Contest](https://www.ispd.cc/contests/08/ispd08rc.html), and try to minimize the total overflow (TOF), max overflow (MOF), wirelength (WL) and runtime.
 ### Spec
 [Lab2.pdf](lab2/spec/Lab2.pdf)
 ### Result
